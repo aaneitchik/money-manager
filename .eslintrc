@@ -1,0 +1,16 @@
+{
+	"extends": [
+		"airbnb",
+		"prettier",
+		"prettier/react",
+		"plugin:react-native/all"
+	],
+	"plugins": [
+		"prettier",
+		"react-native"
+	],
+	"rules": {
+		"no-use-before-define": 0,
+		"react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }]
+	}
+}
